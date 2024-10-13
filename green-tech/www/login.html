@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3" />
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css" />
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/personalizado.css" />
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/remixicon/login.css" />
+  </head>
+
+  <body>
+    <!-- App root element -->
+
+    <!-- Initial Page, "data-name" contains page name -->
+    <div data-name="login" id="pagina" class="page">
+      <!-- Scrollable page content -->
+      <main class="caixa-maior">
+        <form class="caixa-media">
+          <h1><span class="nome">BLUE</span>TECH</h1>
+          <div class="input-email">
+            <input type="email" placeholder="usuario" />
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+          <div class="input-email">
+            <input type="password" placeholder="Senha" />
+            <i class="fa fa-lock" aria-hidden="true"></i>
+          </div>
+          <div class="remember-forgot">
+            <label>
+              <input type="checkbox" />
+              lembrar senha
+            </label>
+            <a href="/index/">Esqueci a senha </a>
+          </div>
+          <button class="login" type="button">Login</button>
+          <div class="register-link">
+            <p>Nao tem uma conta? <a href="/index/">Cadastre-se</a></p>
+          </div>
+        </form>
+      </main>
+    </div>
+
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+  </body>
+</html>

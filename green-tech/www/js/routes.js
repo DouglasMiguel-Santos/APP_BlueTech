@@ -33,7 +33,7 @@ var app = new Framework7({
         },
         pageInit: function (event, page) {
           // fazer algo quando a página for inicializada
-          app.views.main.router.navigate("/index/"); // comando para jogar a pagina inicial por exemplo a pagina de login ou cadastro
+          app.views.main.router.navigate("/login/"); // comando para jogar a pagina inicial por exemplo a pagina de login ou cadastro
           $.getScript("js/index.js");
           var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
@@ -112,18 +112,20 @@ var app = new Framework7({
       },
     },
     {
-      path: "/link4/",
-      url: "link4.html",
+      path: "/login/",
+      url: "login.html",
       animate: false,
       on: {
         pageBeforeIn: function (event, page) {
           // fazer algo antes da página ser exibida
+          $("#menuPrincipal").hide("fast");
         },
         pageAfterIn: function (event, page) {
           // fazer algo depois da página ser exibida
         },
         pageInit: function (event, page) {
           // fazer algo quando a página for inicializada
+          $.getScript("js/login.js");
         },
         pageBeforeRemove: function (event, page) {
           // fazer algo antes da página ser removida do DOM

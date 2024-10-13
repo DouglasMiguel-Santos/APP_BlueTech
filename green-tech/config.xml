@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="br.com.curso.blueDMtech" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>BlueDMtech</name>
+    <name>Blue Tech</name>
     <description>APP feito no mini curso</description>
     <author email="douglasmb.santos@gmail.com" href="https://cordova.apache.org">
         Douglas Miguel barbosa Santos
@@ -8,4 +8,5 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <icon src="logo.png" />'
 </widget>

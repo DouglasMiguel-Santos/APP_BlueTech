@@ -21,6 +21,7 @@
   width: 100%;
   align-items: center;
   padding: 10px;
+  margin-left: 20px;
 }
 
 #Search {
@@ -48,6 +49,6 @@
   background: none;
   color: var(--preto);
   border: none;
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: 24px;
 }

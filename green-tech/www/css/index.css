@@ -216,7 +216,7 @@ form {
   font-size: 10px;
 }
 .color-gray {
-  color: gray;
+  color: rgb(79, 77, 77);
 }
 .ri-star-s-fill {
   color: orange;
@@ -227,7 +227,7 @@ form {
   font-weight: 800;
 }
 .price {
-  font-size: 20px;
+  font-size: 15px;
 }
 @media (min-width: 50px) {
   .item-card {
