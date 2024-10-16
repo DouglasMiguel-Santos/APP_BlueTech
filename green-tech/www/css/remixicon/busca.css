@@ -62,7 +62,7 @@
   gap: 10px;
   display: flex;
   flex-wrap: wrap;
-  width: 250px;
+  width: 350px;
   min-height: 250px;
 
   justify-content: space-around;
@@ -86,4 +86,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.Nome-rating .color-gray {
+  white-space: nowrap; /* Evita a quebra de linha */
+  overflow: hidden; /* Oculta o texto que ultrapassa o limite */
+  text-overflow: ellipsis; /* Adiciona "..." quando o texto é cortado */
+  max-width: 250px; /* Define uma largura máxima para o nome do produto */
+  display: inline-block; /* Garante que as propriedades funcionem corretamente */
 }

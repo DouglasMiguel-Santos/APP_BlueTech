@@ -32,7 +32,7 @@ btnBusca.addEventListener("click", async () => {
                 result.results[index].thumbnail
               }" onerror="this.src='img/empty.gif'" alt="Imagem do Produto" />
             </div>
-            <div class="nome-rating">
+            <div class="Nome-rating">
               <span class="color-gray">${result.results[index].title}</span>
             </div>
             <div class="price"> 
@@ -40,17 +40,7 @@ btnBusca.addEventListener("click", async () => {
                 style: "currency",
                 currency: "BRL",
               })}
-              ${
-                result.results[index].original_price
-                  ? result.results[index].original_price.toLocaleString(
-                      "pt-BR",
-                      {
-                        style: "currency",
-                        currency: "BRL",
-                      }
-                    )
-                  : "Preço original indisponível"
-              }
+             
            </div>
           </a>
         </div>
