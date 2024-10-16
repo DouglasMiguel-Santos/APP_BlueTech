@@ -72,8 +72,8 @@ var app = new Framework7({
       },
     },
     {
-      path: "/link2/",
-      url: "link2.html",
+      path: "/busca/",
+      url: "busca.html",
       animate: false,
       on: {
         pageBeforeIn: function (event, page) {
@@ -84,7 +84,7 @@ var app = new Framework7({
         },
         pageInit: function (event, page) {
           // fazer algo quando a página for inicializada
-          $.getScript("js/mercLivre.js");
+          $.getScript("js/busca.js");
         },
         pageBeforeRemove: function (event, page) {
           // fazer algo antes da página ser removida do DOM

@@ -5,16 +5,6 @@
   --preto: #2a2a2a;
 }
 
-.container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: space-between !important;
-  padding: 10px 0px;
-  align-items: center;
-  flex-flow: column wrap;
-}
-
 #formBusca {
   display: flex;
   justify-content: space-between;
@@ -35,7 +25,7 @@
 }
 
 ::placeholder {
-  color: #d7d3d3;
+  color: #efe9e9;
 }
 
 #iconeBuscar {
@@ -51,4 +41,50 @@
   border: none;
   margin-right: 40px;
   font-size: 24px;
+}
+.produto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  /* Remova o height: 100vh; */
+  overflow-y: auto; /* Adicione isto para permitir rolagem vertical */
+  padding: 10px; /* Para garantir que o conteúdo tenha espaço */
+  max-height: calc(
+    100vh - 60px
+  ); /* Limite a altura para manter a rolagem ativa */
+  margin-bottom: 200px;
+}
+
+.img-Caixa {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  min-height: 250px;
+
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(251, 251, 252);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.547);
+}
+.img-Caixa img {
+  background-color: red;
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 10px;
+}
+.item-Card {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

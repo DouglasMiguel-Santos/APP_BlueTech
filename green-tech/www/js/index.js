@@ -20,8 +20,6 @@ fetch("js/backend.json")
       // Esvaziar a área de produtos
       $("#produtos").empty();
 
-      //API MERCADO LIVRE
-
       data.forEach((produto) => {
         var produtoHTML = `
           <!-- ITEM CARD -->

@@ -32,50 +32,32 @@
     <div id="app">
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
-        <!-- TAB BAR-->
-        <div id="menuPrincipal" class="toolbar toolbar-bottom">
-          <div class="toolbar-inner display-flex">
-            <a href="/index/" class="tab-link link active">
-              <i class="ri-home-5-line"></i>
-              <span>Home</span>
-            </a>
-            <a href="/link2/" class="tab-link link">
-              <i class="ri-search-2-line"></i>
-              <span>Busca</span>
-            </a>
-            <a href="/favoritos/" class="tab-link link">
-              <i class="ri-heart-3-line"></i>
-              <span>Favoritos</span>
-            </a>
-
-            <a href="/link4/" class="tab-link link">
-              <i class="ri-user-3-line"></i>
-              <span>Usuários</span>
-            </a>
-          </div>
-        </div>
+     
 
         <!-- Initial Page, "data-name" contains page name -->
-        <div data-name="link2" class="page color-theme-blue">
+        <div data-name="busca" class="page color-theme-blue">
           <!-- NAV TOPO-->
-          <div class="top-nav">
+      
             <h1 class="title-logo"><span>Blue</span>Tech</h1>
-            <a href="/carrinho/" class="btn-cart" data-count="0">
-              <i class="ri-shopping-bag-line"></i>
-            </a>
-          </div>
-          <main class="container">
+            
+        
+            
+          
             <form id="formBusca">
               <input id="Search" type="text" placeholder="O que você procura" />
 
               <i id="iconeBuscar" class="ri-search-2-line"></i>
             </form>
-          </main>
+        
 
           <!-- Scrollable page content -->
-        </div>
-      </div>
-    </div>
+
+          <div
+            class="produto row margin-top display-flex align-items-center justify-content-start"
+          >
+           
+          </div>
+      
     <!-- Path to Framework7 Library Bundle JS-->
     <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
     <!-- jQuery -->
