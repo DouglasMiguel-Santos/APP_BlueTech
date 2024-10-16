@@ -28,9 +28,9 @@ btnBusca.addEventListener("click", async () => {
             result.results[index].category_id
           }" href="#" class="item">
             <div class="img-Caixa">
-              <img src="${result.results[index].thumbnail}" alt="${
-      result.results[index].title
-    }" />
+              <img src="${
+                result.results[index].thumbnail
+              }" onerror="this.src='img/empty.gif'" alt="Imagem do Produto" />
             </div>
             <div class="nome-rating">
               <span class="color-gray">${result.results[index].title}</span>
